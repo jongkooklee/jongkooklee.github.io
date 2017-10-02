@@ -1,0 +1,99 @@
+body {
+  background-image: url("../images/steps.png");
+}
+
+p {
+	font-size: 18px;
+}
+
+#jameslee {
+	color: white;
+  	font-family: "Georgia", Times, Times New Roman, serif;
+  	font-weight: bold;
+  	font-size:25px;
+}
+
+.navbar-brand {
+	background-color: #4aaaa5;
+}
+
+.rightnav {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.leftcolumn {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #ddd;
+	padding: 0px 40px 40px 40px;
+	background-color: white;
+	margin-bottom: 40px;
+}
+
+h1 {
+	color: #4aaaa5;
+	font-size: 30px;
+	font-family: "Georgia", Times, Times New Roman, serif;
+	font-weight: bold;
+}
+
+.panel-title {
+	color: #4aaaa5;
+	font-family: "Georgia", Times, Times New Roman, serif;
+	font-weight: bold;
+	font-size: 23px;
+	line-height: 3;
+	border-bottom: solid #ddd 1px;
+	padding-left: 20px;
+}
+
+.panelcolor {
+	background-color: white;
+}
+
+.panel-body {
+	height: 200px;
+	padding-left: 30px;
+}
+
+.col-centered {
+	float: none;
+	margin: 0 auto;
+}
+
+p.portfoliotext {
+	width: 100%;
+	font-family: "Georgia", Times, Times New Roman, serif;
+	font-size: 20px;
+	color:white;
+	background-color: #4aaaa5;
+	text-align: center;
+	line-height: 2;
+	position: relative;
+	bottom: 60px;
+}
+
+img.img-thumbnail {
+	margin-bottom: 30px;
+}
+
+label {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 1.5;
+    color: darkgray;
+    font-weight: normal;
+}
+
+
+@media screen and (max-width: 768px) {
+	div.panel-body.row{
+		height: 150px;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	div.panel-body.row{
+		height: 100px;
+	}
+}
